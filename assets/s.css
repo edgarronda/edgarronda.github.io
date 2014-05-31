@@ -1,0 +1,42 @@
+img.bg {
+min-height: 100%;
+min-width: 1024px;
+width: 100%;
+height: auto;
+position: fixed;
+top: 0;
+left: 0;
+}
+.nav{
+	list-style: none;float:right;}
+.nav li{
+	float:left;}
+@import url('fonts/fonts.css');*{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:relative;}
+img{max-width:100%;height:auto;}
+p,ul,ol,table,hr,.p,h1,h2,.alpha,.beta{margin-bottom:30px;margin-bottom:1.5rem;}
+h1,.alpha{font-weight:400;font-size:3rem;line-height:1;}
+h2,.beta{font-weight:400;}h3,.gamma{font-weight:400;}.amp{font-style:italic;}
+a{color:#86A09D;text-decoration:none;}
+a:hover{text-decoration:none;}
+.wrap{max-width:740px;max-width:35rem;padding:30px;padding:1.5rem;margin:0 auto;}
+::selection{background-color:#e9ecef;}::-moz-selection{background-color:#e9ecef;}
+html{
+	font:135%/1.5 "Calendas Plus",Georgia,"Times New Roman",serif;color:#B2CB7A;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-feature-settings:"liga=1, dlig=1";
+	-moz-font-feature-settings:"liga","dlig";
+	-ms-font-feature-settings:"liga","dlig";
+	-o-font-feature-settings:"liga","dlig";
+	font-feature-settings:"liga","dlig";height:100%;}
+@media screen and (max-width: 760px) {html{font-size:112.5%;height:auto;min-height:100%;}}
+body{display:block;text-align:center;height:100%;}
+body:before{content:'';display:inline-block;height:100%;vertical-align:middle;margin-right:-.25em;}
+.container{display:inline-block;vertical-align:middle;text-align:left;}
+.site-header{-webkit-animation:fade 1s .5s;-webkit-animation-fill-mode:both;}
+.site-title{font-size:2rem;line-height:1.5;margin-bottom:0;text-align:center;color:#00AA4F;}
+.site-desc{display:block;font-variant:small-caps;text-transform:lowercase;letter-spacing:.2em;color:#86A09D;}
+.content{-webkit-animation:fade 1s 1.5s;-webkit-animation-fill-mode:both;}
+.portrait-container{width:150px;width:7.5rem;height:150px;height:7.5rem;margin-right:1.5rem;border-radius:100%;overflow:hidden;float:left;}
+.portrait{display:block;border-radius:100%;}@media screen and (max-width: 35em) {.portrait-container{float:none;margin:0 auto 30px;margin-bottom:1.5rem;}}@-webkit-keyframes fade {
+	from { opacity: 0; }to{opacity:1;}
+}
