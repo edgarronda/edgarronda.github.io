@@ -3,5 +3,20 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50%;
-    background-size: cover;  
+    background-size: cover; 
+    font-family: "Neue Haas Grotesk W01","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+
+}
+
+.container{
+	background-color: #222;
+}
+
+span{
+	color:#ef4544;
+}
+
+.whitetext{
+	font-size: 1.71429em;
+    color: #f0f0f0;
 }
