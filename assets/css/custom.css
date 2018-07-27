@@ -7,23 +7,64 @@ body {
     font-family: "Neue Haas Grotesk W01","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
+.profileimage{
+    width: 60%;
+    border-radius: 60%;
+    padding-top: 20px;
+}
+
+.card{
+    background-color: #9fecd7;
+}
+
+.crt-social li{
+    display: inline-block;
+    margin: 5px 12px;
+}
+
 .container{
-	/*background-color: #222;*/
+    padding-top: 30px;
+}
+
+.fa{
+    font-size:24px;
 }
 
 a{
-    color:#ef4544;
+    text-decoration: none;
 }
 
-span{
-	color:#ef4544;
-    font-size: 1.71429em;
+a .hover{
+    text-decoration: none;
 }
 
-span:hover{
-    color: #f0f0f0;
+.datapanel{
+    color:#fff;
+    margin: .5rem 0 1rem 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
 }
 
-.RedRedWind{
-    color:#ef4544;
+.promo {
+    background-color: #fff;
+}
+
+.promo-caption {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.promo-subcaption {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.light {
+    font-weight: 300;
 }
