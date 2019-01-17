@@ -19,3 +19,7 @@ a{
 a .hover{
     text-decoration: none;
 }
+.livingcoral{
+    color: #FA7268;
+    -webkit-text-stroke: .2px black;
+}
