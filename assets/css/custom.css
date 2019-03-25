@@ -23,3 +23,7 @@ a .hover{
     color: #FA7268;
     -webkit-text-stroke: .2px black;
 }
+
+.white-back{
+    background-color: white;
+}
