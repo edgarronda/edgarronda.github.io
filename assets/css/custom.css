@@ -1,37 +1,17 @@
-body { 
-    background-image: url('../img/background.jpg');
-    background-position: center center;
-    background-repeat:  no-repeat;
-    background-attachment: fixed;
-    background-size:  cover;
+body, .card{
     font-family: "Neue Haas Grotesk W01","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
-
-.container{
-    position: relative;
-    padding-top: 15%;
-}
-
 a{
     text-decoration: none;
 }
-
 a .hover{
     text-decoration: none;
-}
-.livingcoral{
-    color: #FA7268;
-    -webkit-text-stroke: .4px black;
 }
 .cyellow{
     color:#e7ff00;
     -webkit-text-stroke: .4px black;
 }
-.white-back{
-    background-color: white;
-}
-
 h1{
     color: #FFF;
     font-weight: 700;
@@ -41,10 +21,6 @@ h1{
     line-height: 0.9em;
     -webkit-text-stroke: .4px black;
 }
-
-h2{
-    color: #a0cfee;
-    font-weight: 500;
-    font-size: 2.25em;
-    margin-bottom: 15px;
+h1, h4{
+    margin:0;
 }
