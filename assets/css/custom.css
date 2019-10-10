@@ -24,3 +24,17 @@ h1{
 h1, h4{
     margin:0;
 }
+.modaltext a{
+    color: #fff;
+    text-decoration: none;
+}
+.modal p{
+    color:#fff;
+    /* background-color:#000 */
+}
+.modal {
+    background-color:transparent; 
+}
+.chip{
+    background-color:#e7ff00;
+}

@@ -16,18 +16,25 @@
 
 	    <!--Import materialize.css-->
 		<link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-		<link type="text/css" rel="stylesheet" href="assets/css/custom-min.css"  media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="assets/css/custom.css"  media="screen,projection"/>
 		<!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>   
+
+		<script src="assets/js/materialize.min.js"></script>
+
 		<script defer async>
+			document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.modal');
+			var instances = M.Modal.init(elems, {});
 			// display a warning in the console			
 			console.log('%cHOLA DEV!', 'color: red;font-size:2.5rem;font-weight:bold;');
 			console.log('%cPodemos colaborar, enviame un mensaje.', 'font-size:1.25rem;line-height:1.1;margin-top:.5em');
-			console.log('%c--Ed Ronda.--', 'font-size:1.25rem;line-height:1.1;margin-top:.5em');		
+			console.log('%c--Ed Ronda.--', 'font-size:1.25rem;line-height:1.1;margin-top:.5em');
+		});	
 		</script>   
 	</head>
 	<!-- Adding Particle JS-->
-    <body  id="particles-js">	
+    <body id="particles-js">	
 		<div class="valign-wrapper" style="width:100%;height:100%;position: absolute;">
 			<div class="valign" style="width:100%;">
 				<div class="container">
@@ -35,13 +42,13 @@
 						<div class="col s12 m8 offset-m2">
 							<div>
 							<div class="card-content">
-								<h1 class="center">EDGAR RONDA</h1>
-								<h4 class="cyellow center">Software Engineer</h4>
+								<!-- Modal Trigger -->
+								<a class="modal-trigger modaltext" href="#modal1"><h1 class="center">EDGAR RONDA</h1>
+								<h4 class="cyellow center">Software Developer</h4></a>
 								<ul class="center">
+										<a href="https://github.com/edgarronda" target="_blank"><i class="fa fa-2x fa-github-square blue-grey-text text-darken-3"></i></a> 	
 										<a href="https://twitter.com/edgarronda" target="_blank"><i class="fa fa-2x fa-twitter-square blue-grey-text text-darken-3"></i> </a>			 		
 										<a href="https://www.instagram.com/edgarronda/" target="_blank"><i class="fa fa-2x fa-instagram blue-grey-text text-darken-3"></i></a>
-										<a href="https://github.com/edgarronda" target="_blank"><i class="fa fa-2x fa-github-square blue-grey-text text-darken-3"></i></a> 		 		
-										<a href="https://gitlab.com/edgar.guadalupe" target="_blank"><i class="fa fa-2x fa-gitlab blue-grey-text text-darken-3"></i></a>
 										<a href="https://www.linkedin.com/in/edgarronda/" target="_blank"><i class="fa fa-2x fa-linkedin-square blue-grey-text text-darken-3"></i></a>
 									</ul>								  
 							</div>									
@@ -51,12 +58,54 @@
 				</div>
 			</div>
 		</div>
+		
+		 <!-- Modal Structure -->
+		<div id="modal1" class="modal bottom-sheet">
+			<div class="modal-content">
+				<div class="row center">
+					<div class="col s12 m6 offset-m3">
+						<h2 class="white cyellow">#whoami</h2>
+						<div class="card horizontal">
+						<div class="card-image">
+							<img src="https://media.licdn.com/dms/image/C5603AQEvyij7x5J-LQ/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=65gtGI-nJhsDXcL2VQ7RouXLoMiRHWcLljZSXR5bdcQ">
+						</div>
+						<div class="card-stacked">
+							<div class="card-content">
+								<p>My name is Edgar Ronda, I’m a Software Developer at Poly (Plantronics).</p>
+								<p>I'm focused on the Shared Services application side which includes Warranties, Partner Portals, Salesforce, AEM, Etc…</p>
+							</div>
+							<div class="row center">
+									<div class="chip">
+										Python
+									</div>
+									<div class="chip">
+										.NET
+									</div>
+									<div class="chip">
+										Adobe AEM
+									</div>
+									<div class="chip">
+										Salesforce
+									</div>	
+									<div class="chip">
+										.NET Core
+									</div>										
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+		   </div>
+		</div>
+				
 		<!-- scripts for Custom ParticleJS -->
 		<script src="assets/js/particles.js"></script>
 		<script src="assets/js/app.js"></script>
-    </body>
+	</body>
+	
     <!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHH7N8V"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
+
   </html>
