@@ -34,11 +34,12 @@ h1, h4{
 }
 .modal p{
     color:#fff;
-    /* background-color:#000 */
+    font-size:1.3em;
 }
 .modal {
     background-color:transparent; 
 }
 .chip{
     background-color:#e7ff00;
+    color:#000;
 }
