@@ -43,3 +43,6 @@ h1, h4{
     background-color:#e7ff00;
     color:#000;
 }
+.card.horizontal .card-image {
+    max-width: 15%;
+}
