@@ -46,3 +46,6 @@ h1, h4{
 .card.horizontal .card-image {
     max-width: 15%;
 }
+.row {
+    margin-bottom: 0px;
+}
