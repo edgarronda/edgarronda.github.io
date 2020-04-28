@@ -55,26 +55,6 @@
 			href="assets/css/custom.min.css"
 			media="screen,projection"
 		/>
-		<!-- Load all JS and Scripts -->
-		<script defer async>
-			document.addEventListener("DOMContentLoaded", function () {
-				var elems = document.querySelectorAll(".modal");
-				var instances = M.Modal.init(elems, {});
-				// display a warning in the console
-				console.log(
-					"%cHOLA DEV!",
-					"color: red;font-size:2.5rem;font-weight:bold;"
-				);
-				console.log(
-					"%cPodemos colaborar, enviame un mensaje.",
-					"font-size:1.25rem;line-height:1.1;margin-top:.5em"
-				);
-				console.log(
-					"%c--Ed Ronda.--",
-					"font-size:1.25rem;line-height:1.1;margin-top:.5em"
-				);
-			});
-		</script>
 	</head>
 	<body>
 		<div
@@ -88,7 +68,10 @@
 							<div>
 								<div class="card-content">
 									<!-- Modal Trigger -->
-									<a class="modal-trigger modaltext" href="#modal1"
+									<a
+										id="modalstats"
+										class="modal-trigger modaltext"
+										href="#modal1"
 										><h1 class="center">EDGAR RONDA</h1>
 										<h4 class="cyellow center">
 											Software Developer
@@ -161,7 +144,7 @@
 									</p>
 									<p>
 										I work in a varied set of tasks from infrastructure
-										stuff,backend and front-end code.
+										stuff, backend and front-end code.
 									</p>
 								</div>
 							</div>
@@ -263,4 +246,6 @@
 		></iframe
 	></noscript>
 	<!-- End Google Tag Manager (noscript) -->
+	
+	<script src="assets/js/app.js"></script>
 </html>
