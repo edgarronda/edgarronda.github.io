@@ -16,8 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	);
 
 	setTimeout(() => {
-		console.log("World!");
 		var link = document.getElementById("modalstats");
 		link.click();
-	}, 3500);
+	}, 2000);
 });
