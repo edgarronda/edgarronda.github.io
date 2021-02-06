@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-	var elems = document.querySelectorAll(".modal");
-	var instances = M.Modal.init(elems, {});
 	// display a warning in the console
 	console.log(
 		"%cHOLA DEV!",
@@ -14,9 +12,4 @@ document.addEventListener("DOMContentLoaded", function () {
 		"%c--Ed Ronda.--",
 		"font-size:1.25rem;line-height:1.1;margin-top:.5em"
 	);
-
-	setTimeout(() => {
-		var link = document.getElementById("modalstats");
-		link.click();
-	}, 2000);
 });
