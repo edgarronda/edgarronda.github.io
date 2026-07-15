@@ -1,5 +1,4 @@
 body {
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
@@ -30,14 +29,14 @@ body {
 	line-height: 1.6;
 }
 .highlight {
-	color: #007bff;
+	color: #e64a19 ;
 	font-weight: 700;
 }
 .social-icons a {
 	margin: 10px;
-	color: #007bff;
+	color: #ff7043;
 	transition: 0.3s ease-in-out;
 }
 .social-icons a:hover {
-	color: #0056b3;
+	color: #e64a19 ;
 }
